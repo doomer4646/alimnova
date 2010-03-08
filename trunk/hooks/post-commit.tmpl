@@ -47,5 +47,4 @@
 REPOS="$1"
 REV="$2"
 
-commit-email.pl "$REPOS" "$REV" commit-watchers@example.org
-log-commit.py --repository "$REPOS" --revision "$REV"
+mailer.py commit "$REPOS" "$REV" /path/to/mailer.conf
