@@ -7,6 +7,9 @@ The Requirements Engineering Handbook.Ralph R. Young. 2004 ARTECH HOUSE, INC.Pag
 
 REQUERIMIENTOS Y REQUERIMIENTOS NO FUNCIONALES
 
+
+Software requirements Styles and techniques. Soren Lauesen. Pearson Education Limited 2002. First published in Great Britain in 2002
+
 DISCOVERING REAL BUSINESS REQUIREMENTS FOR SOFTWARE PROJECT SUCCESS. ROBIN F. GOLDSMITH .ARTEC HOUSE,INC 2004. 
 COMPETITIVE ENGINEERING A HAND BOOG FOR SYSTEMS ENGINEERING, REQUIREMENTS ENGINEERING AND SOFTWARE ENGINEERING USING PLANGUAGE.TOM GILB. Elsevier Butterworth-Heinemann 2005.
 http://books.google.com.co/books?id=gQWd49zSut4C&pg=PA107&dq=requerimientos+de+software&lr=&ei=C1myS9D-NYjIMo2ihd4M&cd=5#v=onepage&q=requerimientos%20de%20software&f=false
