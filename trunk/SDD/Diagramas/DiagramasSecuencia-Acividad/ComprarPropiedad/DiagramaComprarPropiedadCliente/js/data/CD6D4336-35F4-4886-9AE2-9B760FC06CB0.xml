@@ -1,0 +1,12 @@
+tocTab[tocTab.length] = new Array("0:1", "", "ComprarPropiedadCliente", "EARoot/EA1.htm", "185.png", "5", "0", "", "Sequence diagram0","{CBA537ED-3955-4c73-A49F-DED12390DBAD}");
+tocTab[tocTab.length] = new Array("0:2", "", "Use Case Model", "EARoot/EA3.htm", "180.png", "1", "0", "", "Use Case diagram0","{0744DFBE-0A97-493e-8C46-DACD140513BD}");
+tocTab[tocTab.length] = new Array("0:3", "", "", "EARoot/EA5.htm", "101.png", "23", "0", "", "InteractionFragment0","{7AF159DA-B759-4312-8B4C-16A6766AF23E}");
+tocTab[tocTab.length] = new Array("0:4", "", "Fachada", "EARoot/EA12.htm", "57.png", "19", "0", "", "Sequence0","{BB6C1608-D45F-4547-8EA7-5132F58FC926}");
+tocTab[tocTab.length] = new Array("0:5", "", "InterfaceControlador", "EARoot/EA13.htm", "57.png", "20", "0", "", "Sequence0","{35A9A0C6-D52B-48ba-8B5A-88460A2196B0}");
+tocTab[tocTab.length] = new Array("0:6", "", "LogicaCliente", "EARoot/EA14.htm", "57.png", "22", "0", "", "Sequence0","{CDAC6481-FD8B-4855-B517-EE7A6C736280}");
+tocTab[tocTab.length] = new Array("0:7", "", "OpcionCasilla", "EARoot/EA16.htm", "57.png", "18", "0", "", "Sequence0","{4159E2C6-93CB-444c-8E8B-76F6BB3A741C}");
+tocTab[tocTab.length] = new Array("0:8", "", "Proxy", "EARoot/EA18.htm", "57.png", "21", "0", "", "Sequence0","{19489BDA-C752-4a0e-AB22-916DBAE5DC8D}");
+tocTab[tocTab.length] = new Array("0:9", "", "Tablero_Principal", "EARoot/EA19.htm", "57.png", "17", "0", "", "Sequence0","{CFD7F250-DDC8-44f7-9E9F-62665E10722D}");
+tocTab[tocTab.length] = new Array("0:10", "", "Usuario", "EARoot/EA20.htm", "6.png", "16", "0", "", "Actor0","{03789C78-C48E-46ab-A0AE-EECAC851F3B3}");
+tocTab[tocTab.length] = new Array("1", "1", "Actors", "EARoot/EA11.htm", "4.png", "", "", "{8E0191D5-B144-4230-8D29-FAE4E1FB77F9}", "Package");
+tocTab[tocTab.length] = new Array("2", "1", "Primary Use Cases", "EARoot/EA17.htm", "4.png", "", "", "{3153B571-F9DF-462b-9F69-564AB6401AF4}", "Package");
