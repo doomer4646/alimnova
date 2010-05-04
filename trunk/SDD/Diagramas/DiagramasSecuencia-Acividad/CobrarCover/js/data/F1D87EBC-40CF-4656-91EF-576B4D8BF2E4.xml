@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0:1", "", "Use Case Model", "EARoot/EA1.htm", "185.png", "5", "0", "", "Sequence diagram0","{80256E08-F055-4313-B287-4D79C2604C9D}");
+tocTab[tocTab.length] = new Array("0:2", "", "Use Case Model", "EARoot/EA3.htm", "180.png", "1", "0", "", "Use Case diagram0","{D4E8C465-47F8-4b08-B364-4C6D3C8621CE}");
+tocTab[tocTab.length] = new Array("0:3", "", "estVenta", "EARoot/EA11.htm", "57.png", "19", "0", "", "Sequence0","{0CA05191-5330-4734-A8A0-02AD790FEFAA}");
+tocTab[tocTab.length] = new Array("0:4", "", "jugador", "EARoot/EA12.htm", "6.png", "21", "0", "", "Actor0","{50A71546-0BF6-4c2b-A9B7-2461A1570408}");
+tocTab[tocTab.length] = new Array("0:5", "", "jugador_Cayo", "EARoot/EA13.htm", "57.png", "20", "0", "", "Sequence0","{5FDFCE68-B685-4c62-AFCF-A4EB408A920F}");
+tocTab[tocTab.length] = new Array("0:6", "", "jugador_Dueño", "EARoot/EA14.htm", "57.png", "17", "0", "", "Sequence0","{421E154E-48AF-4f96-8F6E-5F36292C73C5}");
+tocTab[tocTab.length] = new Array("0:7", "", "partida", "EARoot/EA16.htm", "57.png", "16", "0", "", "Sequence0","{753E7435-8EAB-4003-9473-54BF92BCCBC2}");
+tocTab[tocTab.length] = new Array("0:8", "", "propiedad", "EARoot/EA18.htm", "57.png", "18", "0", "", "Sequence0","{54AF19AE-897D-4fae-937B-5705E2780006}");
+tocTab[tocTab.length] = new Array("1", "1", "Actors", "EARoot/EA10.htm", "4.png", "", "", "{7EA3F3C3-43E4-4e1e-BB47-B89BF7549BE5}", "Package");
+tocTab[tocTab.length] = new Array("2", "1", "Primary Use Cases", "EARoot/EA17.htm", "4.png", "", "", "{BF1A175A-6EA5-4101-8DFF-6989E4D5ACDE}", "Package");
