@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Trago</title>
+<link href="../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Trago  : public   class</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">23/04/2010 07:30:06 a.m.</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">08/05/2010 06:46:27 p.m.</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Alimnova</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">2.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">2.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Approved</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{CBEB6F87-C74C-4c59-BC4B-3280A12868B7}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA1.htm">Class Model</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&lt;p&gt;&lt;b&gt;Clase que representa un trago en la logica del juego&lt;/b&gt;&lt;br/&gt;&lt;/p&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Requirements');" id="RequirementsTitle">Requirements</li>
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+<div class="ItemBody" id="AttributesTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="40%" class="TableHeading">Attribute</td>
+			<td width="60%" class="TableHeading">Details</td>
+		</tr>
+						<tr>
+				<td width="40%" class="TableRow" valign="top"><i>private int</i><br /><strong>&nbsp;&nbsp;numTra</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Almacena el identificador de cada trago que hay disponible
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>
+		</table>
+</div>		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="20%" class="TableHeading">Element</td>
+					<td width="25%" class="TableHeading">Source Role</td>
+					<td width="25%" class="TableHeading">Target Role</td>
+					<td width="30%" class="TableHeading">Details</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="EA27.htm">Propiedad</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top"><div class="ObjectDetailsNotes">&lt;p&gt;Relacion que representa los tragos que puede tener una propiedad&lt;br/&gt;&lt;/p&gt;</div>
+</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="EA9.htm">Banco</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top"><div class="ObjectDetailsNotes">&lt;p&gt;Relacion que le permite al banco administrar uno o varios tragos&lt;br/&gt;&lt;/p&gt;</div>
+</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="RequirementsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="24%" class="TableHeading">Requirement</td>
+					<td width="8%" class="TableHeading">Type</td>
+					<td width="8%" class="TableHeading">Status</td>
+					<td width="8%" class="TableHeading">Difficulty</td>
+					<td width="8%" class="TableHeading">Priority</td>
+					<td width="8%" class="TableHeading">Stability</td>
+					<td width="44%" class="TableHeading">Detail</td>
+				</tr>
+				<tr>
+					<td width="24%" class="TableRow">T12, T13, T14,T15, T16, T17, P10,P11,  P17, P18, </td>
+					<td width="8%" class="TableRow">&nbsp;</td>
+					<td width="8%" class="TableRow">Proposed</td>
+					<td width="8%" class="TableRow">Medium</td>
+					<td width="8%" class="TableRow">Medium</td>
+					<td width="8%" class="TableRow">Moderate</td>
+					<td width="44%" class="TableRow"><div class="ObjectDetailsNotes">&lt;p&gt;T12: El sistema debe permitir a los jugadores comprar cervezas si es mayor de edad&lt;br/&gt;&lt;/p&gt;&lt;p&gt;T13:El sistema debe permitir a los jugadores vender sus cervezas al banco a mitad de precio&lt;br/&gt;&lt;/p&gt;&lt;p&gt;T14:El sistema debe permitirle a un jugador comprar máximo 4 cervezas por propiedad&lt;br/&gt;&lt;/p&gt;&lt;p&gt;T15:El sistema debe permitir a los jugadores comprar 1 whisky si ha completado 4 cervezas en una misma propiedad&lt;br/&gt;&lt;/p&gt;&lt;p&gt;T16:El sistema debe permitir a los jugadores vender al banco su whisky a mitad de precio&lt;br/&gt;&lt;/p&gt;&lt;p&gt;T17:El numero maximo permitido de whisky&#39;s por propiedad serán 2&lt;br/&gt;&lt;/p&gt;&lt;p&gt;P10:El sistema debe permitir al banco vender las cervezas, las cuales durante toda la partida serán 32.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;P17:El sistema debe permitir al banco comprar las cervezas, las cuales durante toda la partida serán 32.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;P18:El sistema debe permitir al banco vender los whisky&#39;s , los cuales durante toda la partida serán 12.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;P11:El sistema debe permitir al banco comprar los whisky&#39;s , los cuales durante toda la partida serán 12.&lt;br/&gt;&lt;/p&gt;</div>
+</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="24%" class="TableHeading">Constraint</td>
+					<td width="8%" class="TableHeading">Type</td>
+					<td width="8%" class="TableHeading">Status</td>
+					<td width="60%" class="TableHeading">Detail</td>
+				</tr>
+				<tr>
+					<td width="24%" class="TableRow">Un jugador solo puede tener 4 cervezas por propiedad </td>
+					<td width="8%" class="TableRow">Invariant</td>
+					<td width="8%" class="TableRow">Approved</td>
+					<td width="60%" class="TableRow">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="24%" class="TableRow">Un jugador solo puede tener dos Whisky por propiedad </td>
+					<td width="8%" class="TableRow">Invariant</td>
+					<td width="8%" class="TableRow">Approved</td>
+					<td width="60%" class="TableRow">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="24%" class="TableRow">Para comprar un trago, se debe tener el dinero disponible para pagar por la cantidad deseada</td>
+					<td width="8%" class="TableRow">Pre-condition</td>
+					<td width="8%" class="TableRow">Approved</td>
+					<td width="60%" class="TableRow">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="15%" class="TableHeading">Type</td>
+					<td width="15%" class="TableHeading">Connection</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA12.htm">Cerveza</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">Relacion que le permite heredar a cerveza los metodos y atributos de trago</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA34.htm">Wisky</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">Relacio que le permite heredar a wisky los metodos y atributos de trago</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>
