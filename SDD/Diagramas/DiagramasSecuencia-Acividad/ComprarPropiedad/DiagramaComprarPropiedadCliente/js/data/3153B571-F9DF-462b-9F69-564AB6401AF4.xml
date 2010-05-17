@@ -1,5 +1,0 @@
-tocTab[tocTab.length] = new Array("2:1", "", "Primary Use Cases", "EARoot/EA2/EA24.htm", "180.png", "3", "0", "", "Use Case diagram0","{357F2AA1-8291-4118-84DA-09EEA58EB8CB}");
-tocTab[tocTab.length] = new Array("2:3", "", "Use Case1", "EARoot/EA2/EA30.htm", "7.png", "12", "0", "", "UseCase0","{130B93FF-94F2-488d-BBD6-0880AC7FAF2B}");
-tocTab[tocTab.length] = new Array("2:4", "", "Use Case2", "EARoot/EA2/EA31.htm", "7.png", "13", "0", "", "UseCase0","{DF537D95-5561-448d-B91B-DB706DF1EE43}");
-tocTab[tocTab.length] = new Array("2:2", "", "Use Case1", "EARoot/EA2/EA26.htm", "185.png", "4", "12", "", "Sequence diagram0","{D474B0C5-0C8A-471a-9304-4E3DAF4EDEA0}");
-tocTab[tocTab.length] = new Array("2:5", "", "Object1", "EARoot/EA2/EA32.htm", "57.png", "14", "12", "", "Sequence0","{78DEA707-1192-4a79-AC9B-464926679848}");
