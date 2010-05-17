@@ -1,9 +1,0 @@
-tocTab[tocTab.length] = new Array("0:1", "", "Use Case Model", "EARoot/EA1.htm", "185.png", "5", "0", "", "Sequence diagram0","{E18FE27C-2140-4816-A1E1-41DA8CD22F7C}");
-tocTab[tocTab.length] = new Array("0:2", "", "Use Case Model", "EARoot/EA3.htm", "180.png", "1", "0", "", "Use Case diagram0","{318723B8-5711-41fe-A891-E33D7AE9CABA}");
-tocTab[tocTab.length] = new Array("0:3", "", "ComunicacionServidor", "EARoot/EA11.htm", "57.png", "18", "0", "", "Sequence0","{EBE55FE0-E066-4e44-B7DC-DEBE6B6B92A6}");
-tocTab[tocTab.length] = new Array("0:4", "", "Ficha", "EARoot/EA12.htm", "57.png", "19", "0", "", "Sequence0","{B91E79E0-44F9-4cdc-9004-9124F4B47A1B}");
-tocTab[tocTab.length] = new Array("0:5", "", "Inicio", "EARoot/EA13.htm", "57.png", "17", "0", "", "Sequence0","{FA04346A-B697-44a0-B4FE-7354BE8DAF8B}");
-tocTab[tocTab.length] = new Array("0:6", "", "Principal", "EARoot/EA16.htm", "57.png", "20", "0", "", "Sequence0","{580B6F57-C1AD-4a8d-9EF3-6BB2752F134D}");
-tocTab[tocTab.length] = new Array("0:7", "", "Usuario", "EARoot/EA17.htm", "6.png", "16", "0", "", "Actor0","{8CAF35C4-7537-428f-A352-5671FBBD8776}");
-tocTab[tocTab.length] = new Array("1", "1", "Actors", "EARoot/EA10.htm", "4.png", "", "", "{A8598C42-C270-4772-9F8B-8D4D86A71037}", "Package");
-tocTab[tocTab.length] = new Array("2", "1", "Primary Use Cases", "EARoot/EA15.htm", "4.png", "", "", "{73CD9E88-89AB-40e7-AB05-80BFF0C76D05}", "Package");
